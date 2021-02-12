@@ -6,7 +6,7 @@ from imutils import face_utils
 import numpy as np
 
 face_detector=dlib.get_frontal_face_detector()
-landmark_detector=dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+landmark_detector=dlib.shape_predictor('shape_predictor_81_face_landmarks.dat')
 
 
 from sklearn.externals import joblib
