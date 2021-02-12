@@ -10,7 +10,6 @@ landmark_detector=dlib.shape_predictor('shape_predictor_81_face_landmarks.dat')
 
 
 from sklearn.externals import joblib
-
 clsfr=joblib.load('KNN_Model.sav')
 
 
