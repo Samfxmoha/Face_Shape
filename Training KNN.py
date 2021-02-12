@@ -18,6 +18,5 @@ clsfr.fit(train_data,train_target)
 
 
 import joblib
-
 joblib.dump(clsfr,'KNN_model.sav')
 #save the train machine learning model
