@@ -8,12 +8,7 @@ train_target=pickle.load(open('target.pickle','rb'))
 print(train_data.shape)
 print(train_target.shape)
 
-
-print(train_data.shape)
-
-
 from sklearn.neighbors import KNeighborsClassifier
-
 
 
 clsfr=KNeighborsClassifier()
