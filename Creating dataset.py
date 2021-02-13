@@ -34,7 +34,6 @@ def points_68(gray):
             return points
 
 
-
 def create_features(points,labels):
 
 
